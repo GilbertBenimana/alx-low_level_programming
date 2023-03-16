@@ -10,7 +10,7 @@
 
 int main(void)
 {
-    puts("\"Programming is like building a multilingual puzzle");
-    /* Returning 0 for success */
-    return (0);
+puts("\"Programming is like building a multilingual puzzle");
+/* Returning 0 for success */
+return (0);
 }
