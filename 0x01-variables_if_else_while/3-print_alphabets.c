@@ -18,7 +18,7 @@ for (letter = 'a'; letter <= 'z'; letter++)
 {
 putchar(toupper(letter));
 }
-putchar("\n");
+putchar('\n');
 /* returning 0 */
 return (0);
 }
