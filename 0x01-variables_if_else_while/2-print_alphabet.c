@@ -13,7 +13,7 @@ for (letter = 'a'; letter <= 'z'; letter++)
 {
 putchar(tolower(letter));
 }
-putchar("\n");
+putchar('\n');
 /* returning 0 */
 return (0);
 }
