@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - Entry point
  * Return: Always 1 (Success)
@@ -15,7 +16,7 @@ if (letter != 'q' && letter != 'e')
 putchar(tolower(letter));
 }
 }
-putchar("\n");
+putchar('\n');
 /* returning 0 */
 return (0);
 }
