@@ -8,15 +8,12 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-int i;
-for (i = 0; i < 16; i++)
-{
-putchar(i + '0');
-if (i > 9)
-{
-putchar('a' + (i - 10));
-}
-}
+int d;
+char low;
+for (d = '0'; d <= '9'; d++)
+putchar(d);
+for (low = 'a'; low <= 'f'; low++)
+putchar(low);
 putchar('\n');
 /* returning 0 */
 return (0);
