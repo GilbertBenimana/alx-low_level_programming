@@ -1,24 +1,25 @@
 #include "main.h"
-
 /**
- * jack_bauer - Check Holberton
- * Description: function prints every minute in one day
- * Return: Nothing
+ * print_sign - Print the sign of a number
+ * @n: type int integer, can be negative or positive
+ * Description: print +, 0, or - depending on number, along with return
+ * Return: 1 if +, 0 if 0, and -1 if -
  */
-void jack_bauer(void)
+int print_sign(int n)
 {
-	int H, M;
-
-	for (H = 0; H < 24; H++)
+	if (n > 0)
 	{
-		for (M = 0; M < 60; M++)
-		{
-			_putchar((H / 10) + '0');
-			_putchar((H % 10) + '0');
-			_putchar(':');
-			_putchar((M / 10) + '0');
-			_putchar((M % 10) + '0');
-			_putchar('\n');
-		}
+		_putchar('+');
+		return (1);
+	}
+	else if (n < 0)
+	{
+		_putchar('-');
+		return (-1);
+	}
+	else
+	{
+		_putchar('0');
+		return (0);
 	}
 }
