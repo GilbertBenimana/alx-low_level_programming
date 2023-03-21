@@ -5,7 +5,7 @@
  * main - Entry point
  * Return: Always 1 (Success)
  */
-/* print alphabet function */
+/* alphabet function that print out all letters  */
 void print_alphabet(void)
 {
 	int letter;
