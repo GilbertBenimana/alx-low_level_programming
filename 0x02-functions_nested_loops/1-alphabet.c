@@ -5,13 +5,11 @@
  * main - Entry point
  * Return: Always 1 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	int letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 		_putchar(letter);
 	_putchar('\n');
-
-	return (0);
 }
