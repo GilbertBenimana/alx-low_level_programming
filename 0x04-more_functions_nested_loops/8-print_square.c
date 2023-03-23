@@ -2,6 +2,7 @@
 
 /**
  * print_square - print square
+ * @size - size of square
  * Description:  a function that prints a square
  * Return: No return
  */
@@ -20,7 +21,7 @@ _putchar('#');
 }
 _putchar('\n');
 }
-if(size < 1)
+if (size < 1)
 {
 _putchar('\n');
 }
