@@ -9,16 +9,15 @@
 void print_line(int n)
 {
 int i;
-int n = 10;
 do
 {
 if (n == 0)
 {
+_putchar('\n');
 break;
 }
-_putchar('-');
+_putchar('_');
 i++;
 }
 while (i < n);
-_putchar('\n');
 }
