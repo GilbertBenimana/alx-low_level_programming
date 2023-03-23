@@ -1,32 +1,37 @@
 #include "main.h"
+void print_integer(int m);
 
 /**
- * print_triangle - print a triangle aligned right, using '#'
- * @size: Size of triangle
+ * print_number - a function that prints an integer.
+ * @n: An input integer
+ * Return: Nothing
  */
+void print_number(int n)
+{
+if (n == 0)
+_putchar('0');
+else if (n < 0)
+{
+_putchar('-');
+print_integer(n * -1);
+}
+else
+print_integer(n);
+}
 
-void print_triangle(int size)
+/**
+ * print_integer - A function to priting n
+ * @m: an input unsigned integer
+ * Return: Nothing
+ */
+void print_integer(int m)
 {
-int c, i, j;
-c = 0;
-i = size - 1;
-while (c < size)
+int i = 1000000000;
+
+for (; i >= 1; i /= 10)
+if (m / i != 0)
 {
-i = size - 1 - c;
-j = c + 1;
-while (i > 0)
-{
-_putchar(' ');
-i--;
+_putchar((m / i) % 10 + '0');
 }
-while (j > 0)
-{
-_putchar('#');
-j--;
 }
-_putchar('\n');
-c++;
-}
-if (size <= 0)
-_putchar('\n');
-}
+
