@@ -31,8 +31,9 @@ printf(" % d", i);
 }
 if (i < 100)
 {
-putchar(' ');
+printf(" ");
 }
 }
+printf("\n");
 return (0);
 }
