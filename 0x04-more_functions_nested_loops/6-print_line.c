@@ -8,16 +8,16 @@
 
 void print_line(int n)
 {
+
 int i;
-do
+
+while (i < n)
 {
-if (n == 0)
-{
-_putchar('\n');
-break;
-}
 _putchar('_');
 i++;
 }
-while (i < n);
+if (n < 1)
+{
+_putchar('\n');
+}
 }
