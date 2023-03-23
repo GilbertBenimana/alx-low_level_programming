@@ -8,7 +8,7 @@
  */
 void print_number(int n)
 {
-int digits;
+int digits = 1;
 int temp;
 
 if (n < 0)
