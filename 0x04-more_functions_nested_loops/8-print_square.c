@@ -2,7 +2,7 @@
 
 /**
  * print_square - print square
- * @size - size of square
+ * @size: size of square
  * Description:  a function that prints a square
  * Return: No return
  */
