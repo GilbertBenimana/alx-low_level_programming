@@ -16,10 +16,10 @@ int isupper = 0;
 
 for (i = 'A'; i <= 'Z'; i++)
 {
-if(i == c)
+if (i == c)
 {
 isupper = 1;
 }
 }
-return(isupper);
+return (isupper);
 }
