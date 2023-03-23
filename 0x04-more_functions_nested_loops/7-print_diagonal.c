@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - print diagonal
- * @n - length of the diagonal
+ * @n: length of the diagonal
  * Description: draws a diagonal in the terminal
  * Return: No return
  */
