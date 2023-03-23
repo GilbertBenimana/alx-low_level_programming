@@ -26,7 +26,7 @@ temp /= 10;
 
 while (digits > 0)
 {
-_putchar((n / digits) + '0');
+_putchar((n / digits) +'0');
 n %= digits;
 digits /= 10;
 }
