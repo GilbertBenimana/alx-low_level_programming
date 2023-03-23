@@ -17,8 +17,5 @@ while (i < n)
 _putchar('_');
 i++;
 }
-if (n < 1)
-{
 _putchar('\n');
-}
 }
