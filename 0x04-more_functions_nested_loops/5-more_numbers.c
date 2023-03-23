@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * more_numbers - print numbers
@@ -16,11 +16,11 @@ for (j = 0; j <= 14; j++)
 {
 if (j > 9)
 {
-_putchar(j / 10 + '0');
+putchar(j / 10 + '0');
 }
-_putchar(j % 10 + '0');
+putchar(j % 10 + '0');
 }
-_putchar('\n');
+putchar('\n');
 i++;
 }
 }
