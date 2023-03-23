@@ -11,10 +11,10 @@
 
 int _isdigit(int c)
 {
-int i;
+char i;
 int isdigit = 0;
 
-for (i = 0; i <= 9; i++)
+for (i = '0'; i <= '9'; i++)
 {
 if (i == c)
 {
