@@ -1,26 +1,20 @@
 #include "main.h"
 
 /**
- * more_numbers - print 10 times the numbers from 0 to 14
- * Description: Can only use _putchar 3 times
+ * print_most_numbers - print numbers
+ * Description: prints numbers from 0 to 9 except 2 and 4
+ * Return: No return
  */
-void more_numbers(void)
+
+void print_most_numbers(void)
 {
-	int c, i;
-
-	c = 0;
-	while (c < 10)
-	{
-		i = 0;
-		while (i < 15)
-		{
-			if (i > 9)
-				_putchar(i / 10 + '0');
-
-			_putchar(i % 10 + '0');
-			i++;
-		}
-		c++;
-		_putchar('\n');
-	}
+int i;
+for (i = 0; i <= 9; i++)
+{
+if (i != 2 || i != 4)
+{
+_putchar(i + '0');
+}
+}
+_putchar('\n')
 }
