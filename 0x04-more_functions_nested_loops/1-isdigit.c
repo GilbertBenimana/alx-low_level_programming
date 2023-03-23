@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * @_isdigit - Check if c is a digit
+ * _isdigit - Check if c is a digit
  * @c: An input int
  * Description: function return 1 if character is digit
  * and 0 otherwise
@@ -16,10 +16,10 @@ int isdigit = 0;
 
 for (i = 0; i < 9; i++)
 {
-if(i == c)
+if (i == c)
 {
 isdigit = 1;
 }
 }
-return(isdigit);
+return (isdigit);
 }
