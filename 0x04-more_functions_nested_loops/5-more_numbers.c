@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * more_numbers - print numbers
@@ -6,7 +6,7 @@
  * Return: No return
  */
 
-void main(void)
+void more_numbers(void)
 {
 int i;
 int j;
@@ -16,12 +16,12 @@ for (j = 0; j <= 14; j++)
 {
 if (j > 9)
 {
-putchar(j / 10 + '0');
+_putchar(j / 10 + '0');
 }
-putchar(j % 10 + '0');
+_putchar(j % 10 + '0');
 }
-putchar('\n');
 i++;
+_putchar('\n');
 }
 }
 
