@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_line - print line
- * Description: draws a straight line in the terminal
+ * print_diagonal - print diagonal
+ * Description: draws a diagonal in the terminal
  * Return: No return
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
     
 int c, i;
@@ -17,14 +17,14 @@ while (n > 0)
 i = c;
 while (i > 0)
 {
-putchar(' ');
+_putchar(' ');
 i--;
 }
-putchar('\\');
-putchar('\n');
+_putchar('\\');
+_putchar('\n');
 c++;
 n--;
 }
 if (c < 1)
-putchar('\n');
+_putchar('\n');
 }
