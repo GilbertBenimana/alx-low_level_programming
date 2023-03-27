@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * strlen - returns the length of a string
+ * _strlen - returns the length of a string
  *@s: String
  * Description: returns the length of a string
  * Return:Return string length
