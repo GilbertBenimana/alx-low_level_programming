@@ -2,23 +2,24 @@
 #include <stdio.h>
 
 /**
-  * _strcpy - Copy a string
-  * @dest: Destination value
-  * @src: Source value
+  * print_array - Prints n elements of an array of integers
+  * @a: Array of integers
+  * @n: Number of elements of the array to be printed
   *
-  * Return: the pointer to dest
+  * Return: void
   */
-
-char *_strcpy(char *dest, char *src)
+void print_array(int *a, int n)
 {
-int i;
+int j;
 
-for (i = 0; src[i] != '\0'; i++)
+for (j = 0; j < n; j++)
 {
-dest[i] = src[i];
+printf("%d", a[j]);
+
+if (j != (n - 1))
+{
+printf(", ");
 }
-
-dest[i++] = '\0';
-
-return (dest);
+}
+printf("\n");
 }
