@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include <string.h>
 
 /**
  * _strcat - concantanate strings
@@ -22,7 +21,7 @@ d++;
 for (i = 0; src[i] != 0; i++)
 {
 dest[d] = src[i];
-dlen++;
+d++;
 }
 
 dest[d] = '\0';
