@@ -3,7 +3,7 @@
 /**
   * _sqrt -  returns the natural square root of a number
   * @n: the int
-  * @n: the int
+  * @i: the int
   * Description:  returns the natural square root of a number
   * Return: Return int.
   */
