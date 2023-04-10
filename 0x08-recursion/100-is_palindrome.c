@@ -35,9 +35,6 @@ return (1);
 return (check_prime(n, i + 1));
 }
 
-
-#include "holberton.h"
-
 int check_palindrome(char *s);
 
 /**
