@@ -1,6 +1,3 @@
-#ifndef __DOG_H
-#define __DOG_H
-
 /**
  * dog -a new type struct dog with the following elements
  * @name: dog name
@@ -8,6 +5,9 @@
  * @owner: dog owner
  * Description: new type struct dog with the following elements
  */
+
+#ifndef __DOG_H
+#define __DOG_H
 
 struct dog
 {
